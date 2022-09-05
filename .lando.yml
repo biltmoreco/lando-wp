@@ -3,3 +3,9 @@ recipe: wordpress
 config:
   webroot: wordpress
   php: '7.4'
+tooling:
+  cc:
+    service: appserver
+    description: Clear WordPress cache
+    cmd: wp cache flush
+    dir: /app/wordpress/
