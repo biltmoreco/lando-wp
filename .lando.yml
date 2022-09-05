@@ -2,3 +2,4 @@ name: localwp
 recipe: wordpress
 config:
   webroot: wordpress
+  php: '7.4'
