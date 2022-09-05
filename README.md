@@ -1,6 +1,6 @@
 # Lando WP
 
-* Run WordPress locally
+* Run WordPress 6.0.2 locally
 * Configuration is in `.lando.yml` file
 * Helpful Docs: https://docs.lando.dev/wordpress/
 
