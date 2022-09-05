@@ -3,6 +3,14 @@ recipe: wordpress
 config:
   webroot: wordpress
   php: '7.4'
+# services:
+#   phpmyadmin:
+#     type: phpmyadmin
+#     hosts:
+#       - database
+# proxy:
+#   phpmyadmin:
+#     - phpmyadmin.localwp.lndo.site
 tooling:
   cc:
     service: appserver
