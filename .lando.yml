@@ -1,0 +1,4 @@
+name: localwp
+recipe: wordpress
+config:
+  webroot: wordpress
