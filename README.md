@@ -1,17 +1,16 @@
 # Lando WP
-Run WordPress locally
 
-Configuration is in `.lando.yml` file
-
-Helpful Docs: https://docs.lando.dev/wordpress/
+* Run WordPress locally
+* Configuration is in `.lando.yml` file
+* Helpful Docs: https://docs.lando.dev/wordpress/
 
 ---
 
-Build or start up Lando
+Build project / start up Lando
 
 `lando start`
 
-Local URL: https://localwp.lndo.site/
+After starting, local URL: https://localwp.lndo.site/
 
 ---
 
@@ -19,9 +18,11 @@ Import database
 
 `lando db-import <file>`
 
+Note: Perform from root directory of project with database file in root directory
+
 ---
 
-Clear WordPress cache
+Clear WordPress cache (custom tooling command)
 
 `lando cc`
 
@@ -46,5 +47,5 @@ Destroy Lando containers
 ---
 
 ## Sample database info
-user: admin
-pass: password
+`user: admin`
+`pass: password`
